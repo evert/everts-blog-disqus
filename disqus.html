@@ -30,9 +30,6 @@ var disqus_config = function () {
 
         if (data.name !== "resize") return;
 
-        console.log(data.data.height);
-        console.log(document.body.scrollHeight);
-
         // We just got a resize event from disqus.
         // This means we need to tell AMP in the parent
         // to also resize the parent iframe.
